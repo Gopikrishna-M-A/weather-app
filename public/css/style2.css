@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Rubik+Bubbles&family=Rubik+Vinyl&family=Zen+Kaku+Gothic+New&display=swap');
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    padding: 50px;
+
+}
+.body-class{
+    background-image: url('https://images.pexels.com/photos/76969/cold-front-warm-front-hurricane-felix-76969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+}
+
+.header{
+    text-shadow: 0 0 3px #2b264c, 0 0 5px #21b7dc;
+    color: white;
+    margin: 30px;
+    font-family: 'Rubik Bubbles', cursive;
+    font-size: 100px;
+}
+.for-head{
+    font-family: 'Rubik Vinyl', cursive;
+}
+.main-box-index{
+    background-color: rgba(109, 153, 175, 0.242);
+    text-align: center;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(132, 132, 132, 0.2), 0 6px 20px 0 rgba(66, 66, 66, 0.19);
+    border-radius: 10px;  
+}
+.btn{
+    margin: 30px;
+}
+@media screen and (max-width: 1200px) {
+    .header{
+        font-size: 70px;
+    }
+  }
+@media screen and (max-width: 480px) {
+    .header{
+        font-size: 50px;
+    }
+  }
+  @media screen and (max-width: 350px) {
+    .header{
+        font-size: 30px;
+    }
+  }

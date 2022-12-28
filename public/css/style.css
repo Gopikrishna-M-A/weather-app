@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Zen+Kaku+Gothic+New&display=swap'); 
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body-color{
+    background-color:#e9fbfe;
+}
+.main-box{
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(132, 132, 132, 0.2), 0 6px 20px 0 rgba(66, 66, 66, 0.19);
+    max-width: 600px;
+    width: 600px;
+    padding: 25px;
+    padding-left: 40px;
+    margin: 0px 20px 0px 20px;
+    border-radius: 10px;   
+    background: linear-gradient(to right, #2f63f8 0%, #b782da 100%);
+}
+.main-title{
+    color: white;
+    margin-bottom: 10px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 18px;
+}
+.sub-title-one{
+    color: white;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.sub-title-two{
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 17px;
+}
+.temp-title{
+    color: white;
+    margin-top: -40px;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+.celcius{
+    font-size:small;
+}
+.sub-cont{
+    color: white;
+margin-left: 10px;
+
+}
+.icon-loc{
+    fill: white;
+    margin-right: 5px;
+    display: inline;
+    width: 10px;
+   
+
+}
+
+
+@media screen and (min-width: 400px) {
+    .temp-title-cont{
+        height: 70px;
+        border-right:.5px solid white;
+        border-top:10px solid transparent;
+        border-bottom:10px solid transparent;
+    }
+  }
+
+@media screen and (max-width: 480px) {
+    .temp-title-cont{
+        height: 100px;
+        
+    }
+  }
